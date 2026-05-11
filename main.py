@@ -2,6 +2,7 @@ import sys
 
 sys.set_int_max_str_digits(9999)
 print("Calculator Shell - Type 'exit' to quit.")
+# REPL
 while True:
     user_input = input(">>>")
     if user_input.lower in ['exit', 'quit', 'bye']:
