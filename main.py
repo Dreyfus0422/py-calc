@@ -1,4 +1,6 @@
 import sys
+import math
+from lib.librepl import helpme
 # Set sys.set_int_max_str_digits to 9999 to give more digits (default is 4300)
 sys.set_int_max_str_digits(9999)
 print("Calculator Shell - Type 'exit' to quit.")
